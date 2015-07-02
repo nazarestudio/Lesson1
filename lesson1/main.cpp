@@ -39,6 +39,9 @@ int main ( int argc, char* argv[])
 	 return 0;
      
  }
+
+
+//equestion
 /*{
 	double d, b, a, c, x1, x2; 
 	cout << "ax^2+bx+c=0" << endl;
