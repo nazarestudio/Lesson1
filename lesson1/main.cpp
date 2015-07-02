@@ -23,7 +23,7 @@ int main ( int argc, char* argv[])
 	 cout << endl;
 	 cout << "task1_2, formed 5 digit number from 5 another numbers. " << endl;
 	 cout << "Enter numbers:" << endl;
-	 int a, b, c, d, e, result;
+	 int a, b, c, d, e, r;
 	 cout << "- 1st numer:";
 	 cin >> a;
 	 cout << "- 2nd numer:";
@@ -34,7 +34,8 @@ int main ( int argc, char* argv[])
 	 cin >> d;
 	 cout << "- 5th numer:";
 	 cin >> e;
-	 cout << "5 digit number:" << a << b << c << d << e << endl;
+	 r=a*10000+b*1000+c*100+d*10+e;
+	 cout << "5 digit number:" << r << endl;
 	 system ("pause");
 	 return 0;
      
