@@ -19,7 +19,7 @@ int main ( int argc, char* argv[])
 	 return 0;
 	 }*/
 	//task 1_2 Èç ïÿòè îòäåëüíûõ ÷èñåë ñîáðàòü îäíî 5-òè çíà÷íîå
-{
+/*{
 	 cout << endl;
 	 cout << "task1_2, formed 5 digit number from 5 another numbers. " << endl;
 	 cout << "Enter numbers:" << endl;
@@ -39,7 +39,7 @@ int main ( int argc, char* argv[])
 	 system ("pause");
 	 return 0;
      
- }
+ }*/
 
 
 //equestion
@@ -80,3 +80,16 @@ int main ( int argc, char* argv[])
 	system ("pause");
 	return 0;
 }*/
+
+{
+ cout<<"currency lengths"<<endl;
+ double m, k;
+ 
+ cout<<"enter length in metters: "<< endl;
+ cin >> m;
+ k=m/1000;
+ cout<<"length in kilometters: "<<k<<"(km)"<<endl;
+ 
+ system("pause");
+ return 0;
+}
