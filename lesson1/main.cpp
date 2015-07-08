@@ -81,7 +81,7 @@ int main ( int argc, char* argv[])
 	return 0;
 }*/
 
-{
+/*{
  cout<<"currency lengths"<<endl;
  double m, k;
  
@@ -92,4 +92,13 @@ int main ( int argc, char* argv[])
  
  system("pause");
  return 0;
+}*/
+
+{
+	char a;
+	cout<<"enter a letter:";
+	cin>>a;
+	cout<<"letter in uppercase:"<<char(int(a-32))<<endl;
+	system("pause");
+	return 0;
 }
